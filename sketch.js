@@ -4,12 +4,12 @@ var fixedrect,movingrect
 function setup() {
   createCanvas(800,400);
   
-  fixedrect=createSprite(600,500,50,80);
-  movingrect=createSprite(600,500,80,50);
+  fixedrect=createSprite(300,100,80);
+  movingrect=createSprite(300,300,80,50);
   movingrect.debug=true;
-  movingrect.velocityX=-3;
+  movingrect.velocityY=-3;
   fixedrect.debug=true;
-  fixedrect.velocityX=3;
+  fixedrect.velocityY=3;
   fixedrect.shapeColor="red";
   movingrect.shapeColor="green";
 }
